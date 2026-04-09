@@ -1,0 +1,44 @@
+# Claims Triage Automation Dashboard
+
+## Overview
+An interactive Business Intelligence dashboard that automates the 
+triage of Short-Term and Long-Term Disability (STD/LTD) claims using 
+a rules-based logic engine built on fraud risk scoring, documentation 
+completeness, prior claims history, and claim duration.
+
+## The Problem
+Traditional disability claims review treats every claim the same — 
+every file goes through full manual review regardless of complexity. 
+This creates backlog, delays benefits for straightforward claims, and 
+buries senior examiners in low-risk files.
+
+## The Solution
+A triage automation model that categorizes claims into three pathways:
+- ✅ Auto-Approve — Low fraud risk, complete documentation, clear policy coverage
+- ⚡ Manual Review — Medium complexity, incomplete docs, or elevated risk factors
+- 🚩 Investigate — High fraud score, pattern inconsistencies, escalated to senior examiner
+
+## Features
+- Interactive claims register with filter by claim type, triage outcome, and risk level
+- Fraud risk scoring visualization with color-coded bar indicators
+- Triage distribution donut chart
+- Operational metrics including auto-approval rate and documentation completion rate
+- Claims by medical condition mapped to triage outcomes
+- Built-in triage logic documentation
+
+## Tech Stack
+- Data: Microsoft Excel + SQL queries
+- Visualization: HTML, CSS, JavaScript
+- Dataset: NJEA Sample Claims Dataset (14 STD/LTD claims)
+
+## Key Metrics
+- 35.7% Auto-Approve rate
+- 28.6% High Risk flag rate  
+- 57% of claims have incomplete documentation
+- Average claim duration: 262 days
+
+## Author
+**Ajennue Perry**  
+Healthcare Operations & Data Analytics Professional  
+6+ years in disability claims, healthcare operations, and BI reporting  
+[LinkedIn](https://linkedin.com/in/ajennue-perry-74976a25b)
